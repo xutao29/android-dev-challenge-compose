@@ -60,6 +60,8 @@ fun MainList(data: List<Animal>, callback: (Animal) -> Unit) {
                     )
                 }
             }
+
+            // last
             if (index != data.size - 1) {
                 Divider()
             }
