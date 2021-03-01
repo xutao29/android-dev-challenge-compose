@@ -8,4 +8,4 @@ data class Animal(
     var avatarResId: Int,
     var name: String,
     var desc: String,
-): Serializable
+) : Serializable
