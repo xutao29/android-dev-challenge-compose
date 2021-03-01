@@ -44,7 +44,8 @@ fun MainList(data: List<Animal>, callback: (Animal) -> Unit) {
                 Column(
                     Modifier
                         .fillMaxHeight()
-                        .padding(8.dp)) {
+                        .padding(8.dp)
+                ) {
                     Text(text = animal.name, fontSize = 20.sp)
                     Text(
                         text = animal.desc,
